@@ -17,3 +17,8 @@ Kubernetes
 OPA Gatekeeper
 
 See screenshots folder for evidence.
+## Reflection
+
+I learned how vulnerable container images can contain many security issues.
+Using a minimal base image and running containers as a non-root user improves security.
+Gatekeeper policies enforce security rules in Kubernetes and prevent insecure deployments.
