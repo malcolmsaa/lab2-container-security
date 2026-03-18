@@ -26,3 +26,10 @@ I also hardened the Dockerfile by using a smaller base image and running the con
 I generated an SBOM which lists all components and dependencies inside the container image. SBOM is important because it makes it easier to track vulnerabilities and understand what software is included in the image.
 
 Finally I tested OPA Gatekeeper policies in Kubernetes. Gatekeeper can automatically block pods that do not follow defined security policies. This helps enforce security rules in the cluster and prevents insecure deployments.
+
+## Cosign signing
+
+I signed the hardened image with Cosign and verified the signature using the public key.
+
+Image:
+`docker.io/malcolmsa/lab2-container-security@sha256:46c8f3f511e07b8b141c528b760a81f10ad6097811368bd926c49a5893913b95`
