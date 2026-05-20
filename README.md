@@ -111,20 +111,20 @@ Labben var utmanande men väldigt lärorik och gav praktisk förståelse för co
 
 ## Screenshots
 
-### Trivy Scan Before Hardening
-![Trivy Before](screenshots/trivy-before.png)
+### Trivy före hardening
+![Trivy före](screenshots/trivy-before.png)
 
-### Trivy Scan After Hardening
-![Trivy After](screenshots/trivy-after.png)
+### Trivy efter hardening
+![Trivy efter](screenshots/trivy-after.png)
 
-### Cosign Verification
-![Cosign](screenshots/cosign-verify.png)
+### Cosign verifiering
+![Cosign verifiering](screenshots/cosign-verify.png)
 
-### Gatekeeper Policy Deny
-![Gatekeeper Deny](screenshots/gatekeeper-deny.png)
+### Gatekeeper blockerar osäker konfiguration
+![Gatekeeper deny](screenshots/gatekeeper-deny.png)
 
-### Gatekeeper Policy Pass
-![Gatekeeper Pass](screenshots/gatekeeper-pass.png)
+### Gatekeeper godkänner säker konfiguration
+![Gatekeeper pass](screenshots/gatekeeper-pass.png)
 
 ---
 
